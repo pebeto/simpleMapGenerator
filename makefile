@@ -1,2 +1,2 @@
-all: main.cpp
-	g++ -lncurses main.cpp
+all: src/main.cpp
+	g++ -lncurses src/main.cpp

@@ -79,6 +79,11 @@ void printWorldMap(char **mapa){
 }
 
 int main(int argc, char *argv[]){
+    if (argc <= 1) {
+        printf("%s\n", "not enough arguments");
+        return 0;
+    }
+
     srand(time(NULL));
     initCurses();
 
